@@ -1,0 +1,213 @@
+/***************************************************************CLASS***************************************************************/
+.container{
+    background: gold;
+    width: 103.7%;
+    height: 150px;
+    margin-top: -22.6px;
+    margin-left: -23px;
+    position: fixed;
+    z-index: 1;
+}
+.opções_do_menu{
+    text-decoration: none;
+    padding: 15px;
+}
+.foto_das_noticias_destaque{
+    padding: 5px;
+    width: 515px;
+    height: 450px;
+    margin-top: -15px;
+    margin-left: 25px;
+}
+.link_das_noticias_destaques{
+    text-decoration: none;
+}
+.titulo_da_noticia{
+    margin-left: 30px;
+    color: gold;
+}
+.data_da_postagem{
+    font-weight: bold;
+    margin-left: 30px;
+}
+.pop-up_postagens_1{ /*celulares e eletronicos*/
+    background-color: white;
+    width: 200px;
+    height: 515px;
+    float: right;
+    margin-top: 134px;
+    margin-left: -10px;
+    padding: 5px;
+    text-align: center;
+    position:fixed;
+}
+.pop-up_postagens_2{ /*informatica*/
+    background-color: white;
+    width: 200px;
+    height: 515px;
+    float: right;
+    margin-top: 119px;
+    margin-left: 5px;
+    padding: 5px;
+    text-align: center;
+    position:fixed;
+}
+#pop-up_postagens_jogos{ /*Essa ID está na parte de classes por questão de organização*/
+    background-color: white;
+    width: 200px;
+    height: 515px;
+    float: right;
+    margin-top: 134px;
+    margin-left: -10px;
+    padding: 5px;
+    text-align: center;
+    position:fixed;
+}
+.postagens_recentes{    
+    font-size: 15pt;
+    background-color: rgb(172, 171, 171);
+}
+.links_de_redirecionamento{
+    text-align: left;
+    text-decoration: none;
+}
+.links_das_categorias{
+    text-align: left;
+    text-decoration: none;
+}
+.foto_das_noticias{
+    margin-top: 10px;
+    margin-left: 245px;
+    width: 55%;
+    height: 500px;
+    text-align: center;
+}
+.texto_das_noticias{
+    width: 55%;
+    margin-left: 247px;
+}
+.titulo_das_noticias{
+    margin-top: 110px;
+    margin-left: 244px;
+    width: 700px;
+}
+.titulo_das_noticias_eletronicos{
+    margin-top: -5px;
+    margin-left: 244px;
+    width: 700px;
+}
+.foto_das_noticias_celulares{
+    width: 55%;
+    height: 500px;
+    margin-top: -20px;
+    margin-left: -65px;
+}
+.nome_dos_celulares{
+    width: 60%;
+    margin-left: 247px;
+}
+.link_nas_noticias{
+    padding: 1.5px;
+}
+.centro{
+    text-align: center;
+}
+.topicos_eletronicos{
+    font-size: 20pt;
+    font-weight: bold;
+}
+/****************************************************************ID'S***************************************************************/
+#area_cabeçalho{
+    padding: 15px;
+    text-align: center;
+}
+#area_logo{
+    padding: 10px;
+}
+#titulo{
+    margin-top: -5px;
+    font-size: 4em;
+}
+#blog{
+    color: white;
+}
+#formatação_geral_dos_menu{
+    text-align: center;
+    padding: 5px;
+    margin-top: -30px;
+    font-size: 18pt;
+}
+#noticias_destaques_1{
+    width: 575px;
+    height: 521px;
+    background-color: white;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+#noticias_destaques_2{
+    width: 575px;
+    height: 521px;
+    background-color: white;
+    margin-top: -20px;
+    margin-left: 120px;
+}
+#noticias_destaques_3{
+    width: 575px;
+    height: 521px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+#informações_adicionais_da_matéria_jogos{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 245px;
+    color: gray;
+    font-variant-position: relative;
+}
+#informações_adicionais_da_matéria_celulares{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 245px;
+    color: gray;
+    font-variant-position: relative;
+}
+#informações_adicionais_da_matéria_informatica{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 245px;
+    color: gray;
+    font-variant-position: relative;
+}
+#informações_adicionais_da_matéria_eletronicos{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 245px;
+    color: gray;
+    font-variant-position: relative;
+}
+#pop-up_postagens_aba_home{
+    background-color: white;
+    width: 400px;
+    float: right;
+    margin-top: 120px;
+    margin-left: 750px;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+}
+/*********************************************************Demais formatações*********************************************************/
+body{
+    background-color: #e6e6e6;
+}
+a:link, :visited{
+    color: black;
+    
+}
+a:hover{
+    color: gold;
+    background: white;
+}
+h3{
+    font-size: 25pt;
+}
